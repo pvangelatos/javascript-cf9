@@ -44,4 +44,15 @@ console.log(newStr2);
 console.log(str1.toUpperCase());
 console.log(str2.toLowerCase());
 
+// Traverse string
+for (let i = 0; i < str1.length; i++) {
+    console.log(str1[i]); // prints each character in str1
+}
+
+// Enhanced for 
+for (const char of str1) {
+    console.log(char); // prints each character in str1
+}
+
+
 
