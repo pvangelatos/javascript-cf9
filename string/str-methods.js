@@ -54,5 +54,12 @@ for (const char of str1) {
     console.log(char); // prints each character in str1
 }
 
+// Substring
+console.log(str1.substring(1, 4)); // "ell"
+
+// slice
+console.log(str1.slice(1, 4)); // "ell" 
+console.log(str1.slice(-3)); // "llo" - last 3 characters
+
 
 
