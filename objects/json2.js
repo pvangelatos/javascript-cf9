@@ -15,5 +15,4 @@ const jsonStr = ` {
 
 console.log(JSON.parse(jsonStr)) // deserialization 
     
-    
 
